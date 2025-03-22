@@ -1,4 +1,6 @@
-const CardDetail = ({ character }) => {
+import React from "react";
+
+function CardDetail({ character }) {
   return (
     <div className="card-detail">
       <h2>{character.name}</h2>
@@ -11,5 +13,6 @@ const CardDetail = ({ character }) => {
       <p>Gender: {character.gender}</p>
     </div>
   );
-};
+}
+
 export default CardDetail;
